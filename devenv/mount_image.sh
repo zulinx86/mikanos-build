@@ -17,4 +17,4 @@ then
 fi
 
 mkdir -p $MOUNT_POINT
-sudo mount -o loop $DISK_IMG $MOUNT_POINT
+hdiutil attach -mountpoint $MOUNT_POINT $DISK_IMG

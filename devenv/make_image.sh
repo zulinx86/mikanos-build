@@ -30,4 +30,4 @@ then
     sudo cp $ANOTHER_FILE $MOUNT_POINT/
 fi
 sleep 0.5
-sudo umount $MOUNT_POINT
+hdiutil detach $MOUNT_POINT
